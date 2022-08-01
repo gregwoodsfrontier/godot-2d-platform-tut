@@ -6,7 +6,7 @@ func _ready() -> void:
 	return
 
 func _on_StompDetector_body_entered(body: PhysicsBody2D):
-	if body.global_position.y > get_node("StompDetector").global_position.y:
+	if body.global_position.y < get_node("StompDetector").global_position.y:
 		return
 	queue_free()
 
