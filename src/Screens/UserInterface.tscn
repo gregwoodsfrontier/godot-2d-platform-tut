@@ -51,7 +51,7 @@ margin_bottom = 116.0
 margin_right = 320.0
 margin_bottom = 74.0
 
-[node name="ChangeSceneButton" parent="PauseOverlay/VBoxContainer" instance=ExtResource( 3 )]
+[node name="MainScreenButton" parent="PauseOverlay/VBoxContainer" instance=ExtResource( 3 )]
 margin_top = 78.0
 margin_right = 320.0
 margin_bottom = 153.0
